@@ -48,6 +48,7 @@ FRs are user-facing behaviour ("As a subscriber I can…"). BRs are constraints 
 | `cli-frd.md` | **Signed** · built 2026-09-06 (API FR-API-130–134 + `cli/`), proven on the local API; npm publish pending the `@elapse` scope check | William, 2026-09-06 |
 | `docs-site-frd.md` | **Signed** · built 2026-09-06 (`docs-site/`, snippet sync, surface check, CI workflow); Mintlify hosting connect and hosted API URL pending · FR-DOC-022 manage section **signed and built 2026-09-09** | William, 2026-09-06 |
 | `examples-frd.md` | **Signed** · built and proven 2026-09-06, including the FR-EXM-031 CI job | William, 2026-09-06 |
+| `examples-lambda-frd.md` | **Signed** · per-second serverless-compute example on real AWS Lambda; auto-lifecycle (first-Run start, heartbeat/idle/beacon/cap end); runner infra live 2026-09-12; build in progress | Furqaan, 2026-09-12 |
 
 ## Process
 
