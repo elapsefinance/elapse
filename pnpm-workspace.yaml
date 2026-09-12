@@ -5,3 +5,4 @@ packages:
   - "web"
   - "docs-site"
   - "examples/saas"
+  - "examples/lambda"

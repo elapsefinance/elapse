@@ -1,0 +1,28 @@
+{
+  "name": "elapse-example-lambda",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-second serverless compute: a live code session on real AWS Lambda, billed by the second through Elapse. The session starts on first Run and ends itself.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "demo:check": "tsx src/demo-check.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.658.0",
+    "@elapse/sdk": "^0.1.0",
+    "dotenv": "^17.2.0",
+    "tsx": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
